@@ -1,0 +1,58 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+  padding: 0 2.5em;
+  box-sizing: border-box;
+  max-width: 700px;
+  color: #005f5f;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+header a {
+  text-decoration: none;
+  color: darkcyan;
+  margin: 0 1em;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 2em;
+  padding: 0.5em 0;
+}
+
+header {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+input {
+  border: 1px solid #005f5f;
+  padding: 8px;
+  color: #005f5f;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #005f5f;
+  color: white;
+  background-color: darkcyan;
+  padding: 8px;
+}
+
+.portrait {
+  width: 50%;
+}
+
+.maincontent {
+  flex-grow: 1;
+}
